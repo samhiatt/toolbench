@@ -26,4 +26,4 @@ def print_module_versions(variables):
     """
     versions = get_module_versions(variables)
     for key in versions:
-        print("{0: >12}  {1}".format(key, versions[key])) 
+        print("{0: >20}  {1}".format(key, versions[key])) 
